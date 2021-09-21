@@ -52,6 +52,20 @@ export LOADER_SCRIPT_PATH="`pwd`"
 ./main
 ```
 
+# Testing
+
+For testing the endpoint:
+```bash
+curl localhost:8080/deploy_transaction
+# or repeated 100 times:
+for run in {1..1000}; do curl localhost:8080/deploy_transaction; done
+```
+
+For closing the server:
+```bash
+curl localhost:8080/close
+```
+
 ## Docker
 
 Building and running with Docker:
