@@ -57,7 +57,7 @@ export LOADER_SCRIPT_PATH="`pwd`"
 For testing the endpoint:
 ```bash
 curl localhost:8080/deploy_transaction
-# or repeated 100 times:
+# or repeated 1000 times:
 for run in {1..1000}; do curl localhost:8080/deploy_transaction; done
 ```
 
