@@ -52,7 +52,7 @@ export LOADER_SCRIPT_PATH="`pwd`"
 ./main
 ```
 
-# Testing
+## Testing
 
 For testing the endpoint:
 ```bash
