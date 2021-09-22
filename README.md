@@ -71,6 +71,6 @@ curl localhost:8080/close
 Building and running with Docker:
 
 ```bash
-docker build --build-arg DISABLE_CACHE=`date +%s` -t metacall/golang-typescript-http-example .
+docker build --build-arg -t metacall/golang-typescript-http-example .
 docker run --rm -p 8080:8080 -it metacall/golang-typescript-http-example
 ```
